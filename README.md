@@ -19,3 +19,8 @@ The files that NeMO provides us with, are in MTX and TSV format, whereas azimuth
 
 The aggregated data can be found in this google sheet : https://docs.google.com/spreadsheets/d/16-MHAkZ21QG6GLut7cu6JQ47OF5o8tXE7hiEBBhphFA/edit?usp=sharing
 
+## Running locally
+
+1. Clone the github repository ![azimuth](https://github.com/satijalab/azimuth) and build its docker image : `docker build -t azimuth .`
+2. Download the `.rds` and `.annoy` files for human motor-cortex. I downloaded from : ![zenodo](https://zenodo.org/record/4546932). 
+3. Launch the container from the directory of the reference files : `docker run --rm -it -p 3838:3838 -v (pwd):/reference-data:ro azimuth` 
