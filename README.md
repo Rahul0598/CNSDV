@@ -15,5 +15,5 @@ Once the required files are downloaded, we can unzip.
 ## Convert to appropriate format
 The files that NeMO provides us with, are in MTX and TSV format, whereas azimuth expects files in H5Seurat format. So, I have written an R program to convert the files to the required format.
 These files can now be uploaded on azimuth.
-The aggregated data can be found in this ![google_sheet](https://docs.google.com/spreadsheets/d/16-MHAkZ21QG6GLut7cu6JQ47OF5o8tXE7hiEBBhphFA/edit?usp=sharing)
+The aggregated data can be found in this google sheet : https://docs.google.com/spreadsheets/d/16-MHAkZ21QG6GLut7cu6JQ47OF5o8tXE7hiEBBhphFA/edit?usp=sharing
 
